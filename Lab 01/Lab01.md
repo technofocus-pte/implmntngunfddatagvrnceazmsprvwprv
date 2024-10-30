@@ -174,7 +174,14 @@ generated](./media/image20.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image22.png)
 
-[TABLE]
+|Parameter|	Example Value|
+|---|---|
+|Subscription|	Your Azure Subscription|
+|Resource group|	!!Purviewlab-rg!!|
+|Microsoft Purview account name|	!!pvlab-{randomId}-pv!!|
+|Location|	East US2|
+|Managed resource group name|	!!purviewlab-rg!!|
+
 
 ![A screenshot of a computer Description automatically
 generated](./media/image23.png)
