@@ -1,4 +1,4 @@
-# Lab 2 - Registering & Scanning (ADLS Gen2 and Azure SQL DB)
+# Lab 2 - Registering & Scanning 
 
 **Introduction**
 
