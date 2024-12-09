@@ -57,39 +57,37 @@ technical metadata to business metadata.
 
 1.  Open the **Microsoft Purview Governance Portal**.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image1.png)
+     ![](./media/image1.png)
 
 2.   From the **Unified data catalog**, dropdown the **Catalog
     management** and select the **Classic types.**
 
-![](./media/image2.png)
+     ![](./media/image2.png)
 
 3.  In the **Classic types** tab , click on the **Create a new
     glossary**
 
-![](./media/image3.png)
+     ![](./media/image3.png)
 
 4.  In New glossary tan enter
 
-![](./media/image4.png)
+     ![](./media/image4.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image5.png)
+     ![](./media/image5.png)
 
 5.  **Copy** and **paste** the values below into the appropriate fields,
     select your **Domain** and set your **Tenant** as
     the **Steward** and **Expert**, and click **Create**.
 
-> **Name - Glossary**
->
-> **Description -** A glossary is a vocabulary of business terms that
-> can be mapped to assets like a database, tables, columns etc. Glossary
-> terms can help establish a common language across the business,
-> abstracting the technical jargon typically associated with data
-> repositories.
->
-> ![](./media/image6.png)
+      **Name - Glossary**
+     
+      **Description -** A glossary is a vocabulary of business terms that
+      can be mapped to assets like a database, tables, columns etc. Glossary
+      terms can help establish a common language across the business,
+      abstracting the technical jargon typically associated with data
+      repositories.
+ 
+  ![](./media/image6.png)
 
 ## Task 2. Create a Term (System Default Term Template)
 
@@ -97,30 +95,30 @@ generated](./media/image5.png)
     the **Unified data catalog**, drop down the **Catalog management**
     and select **Classic types**. Now click **+ New term**
 
-> ![](./media/image7.png)
+      ![](./media/image7.png)
 
 2.  In the New term tab, select the **System default** term template and
     click **Continue**.
 
-![](./media/image8.png)
+     ![](./media/image8.png)
 
 3.  Change the **Status** of the term to **Approved** and
     then **copy** and **paste** the values below into the appropriate
     field, then click **Create**.
 
-> **Name - !!Contoso Parent!!**
->
-> **Definition - !!This will be the parent term.!!**
->
-> **Acronym - !!CP!!**
->
-> **Resource Name - !!Microsoft Purview!!**
->
-> **Resource Link - !\!<https://aka.ms/MicrosoftPurview>!!**
->
-> ![](./media/image9.png)
-
-![](./media/image10.png)
+      **Name - !!Contoso Parent!!**
+     
+      **Definition - !!This will be the parent term.!!**
+     
+     **Acronym - !!CP!!**
+     
+      **Resource Name - !!Microsoft Purview!!**
+     
+      **Resource Link - !!https://aka.ms/MicrosoftPurview!!**
+     
+      ![](./media/image9.png)
+    
+      ![](./media/image10.png)
 
 ## Task 3. Create a Term (Custom Term Template)
 
@@ -128,101 +126,99 @@ generated](./media/image5.png)
     the **Unified data catalog**, drop down the **Catalog management**
     and select **Classic types**
 
-![A screenshot of a computer Description automatically
-generated](./media/image11.png)
+     ![](./media/image11.png)
 
 2.  On the **Glossary** pane, Click **+ New term**.
 
-> ![](./media/image12.png)
+     ![](./media/image12.png)
 
 3.  On the New term tab, Click **+ New term template**.
 
-> ![](./media/image13.png)
+      ![](./media/image13.png)
 
 4.  On the New term template tab, enter !!**Contoso Template!!** in the
     **Template name** field and click + **New attribute**.
 
-> ![](./media/image14.png)
+      ![](./media/image14.png)
 
 5.  On the New attribute tab, populate the attribute fields as per the
     examples below and click **Apply**.
 
-[TABLE]
+    |Field	|Example Value|
+    |---|---|
+    |Attribute name|	!!Business Unit!!|
+    |Field type|	Single choice|
+    |Choices|	!!Sales!!                                                                                                    !!Marketing!!                                                                                                            !!Finance!!                                                                                                              !!Human Resources!!                                                                                                  !!IT!!   |
 
-![](./media/image15.png)
+
+     ![](./media/image15.png)
 
 6.  On the New term template tab, Click **Create**.
 
-![](./media/image16.png)
+      ![](./media/image16.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image17.png)
+      ![](./media/image117.png)
 
 7.  Now on the New term tab, select **Contoso Template** and
     click **Continue**.
 
-> ![](./media/image18.png)
+      ![](./media/image18.png)
 
 8.  Change the **Status** of the term to Approved and
     then **copy** and **paste** the values below into the appropriate
     field, then click **Create**.
 
-> **Name - !!Contoso Child!!**
->
-> **Definition - !!This will be the long description for the child
-> glossary term.!!**
->
-> **Parent -** Contoso Parent
->
-> **Business Unit –** Marketing
->
-> ![](./media/image19.png)
+      **Name - !!Contoso Child!!**
+     
+     **Definition - !!This will be the long description for the child
+      glossary term.!!**
+     
+      **Parent -** Contoso Parent
+     
+      **Business Unit –** Marketing
+     
+      ![](./media/image19.png)
+    
+       ![](./media/image20.png)
 
-![](./media/image20.png)
-
-> ![A screenshot of a computer Description automatically
-> generated](./media/image21.png)
+      ![](./media/image21.png)
 
 9.  From the **Unified Catalog** screen, select **Terms**, then toggle
     the view to **Hierarchical view** to see the hierarchical glossary.
 
-> ![](./media/image22.png)
->
-> ![](./media/image23.png)
+      ![](./media/image22.png)
+     
+      ![](./media/image23.png)
 
 ## Task 4. Bulk Import Terms
 
 1.  From the **Glossary** screen, click **Import terms**.
 
-> ![](./media/image24.png)
+      ![](./media/image24.png)
 
 2.  Select the **System default** term template and click **Continue**.
 
-> ![](./media/image25.png)
+      ![](./media/image25.png)
 
 3.  Click **Browse** and open the file **import-terms-sample.csv** from
     **C:\LabFiles** on your Lab VM.
 
-> ![](./media/image26.png)
->
-> ![](./media/image27.png)
+      ![](./media/image26.png)
+     
+      ![](./media/image27.png)
 
 4.  In Import terms tab, click **OK**.
 
-> ![](./media/image28.png)
->
-> ![A screenshot of a computer Description automatically
-> generated](./media/image29.png)
+      ![](./media/image28.png)
+     
+      ![](./media/image29.png)
 
 5.  Once complete, you should see 50 additional terms beneath the parent
     (Workplace Analytics). 
 
-> ***Tip***
->
-> *You can quickly find specific types of terms using the filters at the
-> top (e.g. Status = Approved).*
->
-> ![](./media/image30.png)
+   **Tip** :You can quickly find specific types of terms using the filters at the top (e.g. Status = Approved).
+ 
+  ![](./media/image30.png)
 
 ## Task 5. Bulk Export Terms
 
@@ -231,13 +227,12 @@ generated](./media/image17.png)
     Analytics (i.e. Contoso Parent, Contoso Child). **All Workplace
     Analytics terms** should be selected. Click **Export terms**.
 
-![](./media/image31.png)
+    ![](./media/image31.png)
 
 2.  If the export was successful, you should find a **CSV** file has
     been copied to your local machine (e.g. Downloads).
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image32.png)
+    ![](./media/image32.png)
 
 ## Task 6. Assign a Term to an Asset
 
@@ -246,29 +241,28 @@ generated](./media/image17.png)
     assets**, type the asterisk character (**\***) into the search bar,
     and hit **Enter**.
 
-> ![](./media/image33.png)
+      ![](./media/image33.png)
 
 2.  On **QueriesByState** pane, Click **Edit**.
 
-> ![](./media/image34.png)
+      ![](./media/image34.png)
 
 3.  Open the **Glossary terms** drop-down menu and select a glossary
     term (e.g. Contoso Child). Click **Save**.
 
-> ![](./media/image35.png)
->
-> ![A screenshot of a computer Description automatically
-> generated](./media/image36.png)
+      ![](./media/image35.png)
+ 
+     ![](./media/image36.png)
 
 4.  Click on the hyperlinked term name to view the glossary term
     details.
 
-> ![](./media/image37.png)
+      ![](./media/image37.png)
 
 5.  Click **Refresh** to view the **Catalog assets** the term is
     assigned to.
 
-> ![](./media/image38.png)
+      ![](./media/image38.png)
 
 ## Task 7. Update an Existing Term
 
@@ -276,47 +270,41 @@ generated](./media/image17.png)
     the **Unified catalog**, navigate to **Classic types**, and
     select **Glossary**.
 
-> ![](./media/image39.png)
+      ![](./media/image39.png)
 
 2.  From the **Glossary** screen, select **View terms**.
 
-![](./media/image40.png)
+     ![](./media/image40.png)
 
 3.  On the Glossary pane, select an existing term called
     **Aggregation**.
 
-> ![](./media/image41.png)
+      ![](./media/image41.png)
 
 4.  On Aggregation pane ,navigate to the **Related** tab and
     click **Edit**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image42.png)
+     ![](./media/image42.png)
 
 5.  Use the drop-down menu to assign two glossary terms as **Synonyms**
     (e.g. **Workspace Analytics \> Attended** and **Workspace Analytics
     \> Attendee**).
 
-![A screenshot of a computer Description automatically
-generated](./media/image43.png)
+     ![](./media/image43.png)
 
 6.  Use the drop-down menu to assign two glossary terms as **Related
     terms** (e.g. **Workspace Analytics \> Collaborator group** and
     **Workspace Analytics \> Collaborators**).
 
-![](./media/image44.png)
+     ![](./media/image44.png)
 
 7.  Navigate to the **Contacts** tab and assign your **Tenant** as
     an **Expert** and a **Steward**. Click **Save**.
 
-![](./media/image45.png)
+       ![](./media/image45.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image46.png)
-
-![A screenshot of a computer Description automatically
-generated](./media/image47.png)
-
+       ![](./media/image46.png)
+      ![](./media/image47.png)
 **Summary**
 
 This lab provided an overview of how to create, export, and import terms
