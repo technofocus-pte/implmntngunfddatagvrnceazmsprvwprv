@@ -137,69 +137,67 @@ configure and run a scan.
 
 7.  On **raw** container page, click on **Upload** button.
 
-![](./media/image22.png)
+     ![](./media/image22.png)
 
 8.  In the **Upload blob** pane, click on **Browse for file**, navigate
     to **C:\Labfiles** location and select **2021 folder**, then click
     on the **Open** button.
 
-> ![](./media/image23.png)
+      ![](./media/image23.png)
 
 9.  In the **Upload blob** pane, drop down the Advanced, enter **2021**
     as **Upload to folder** and click on **Upload**
 
-> ![](./media/image24.png)
+      ![](./media/image24.png)
 
-![](./media/image25.png)
+      ![](./media/image25.png)
 
 ### Task 3: Create a Collection
 
 1.  Navigate back to **Microsoft Purview resource group**
     **(purviewlab-rg)**.
 
-> ![](./media/image26.png)
+      ![](./media/image26.png)
 
 2.  Open the **Microsoft Purview account** **(pvlab-RandomId-pv)**.
 
-> ![](./media/image27.png)
+      ![](./media/image27.png)
 
 3.  Open the **Microsoft Purview Governance Portal**.
 
-> ![](./media/image28.png)
+      ![](./media/image28.png)
 
 4.  Navigate to **Data Map** \> **Domains** and click **+ New
     collection**.
 
-![](./media/image29.png)
+    ![](./media/image29.png)
+    
+    ![](./media/image30.png)
 
-![](./media/image30.png)
-
-5.  Enter !!**Contoso!!** in the **Display name** field and
+5.  Enter **!!Contoso!!** in the **Display name** field and
     click **Create**.
 
-> ![](./media/image31.png)
+    ![](./media/image31.png)
 
-![](./media/image32.png)
+    ![](./media/image32.png)
 
 ### Task 4: Register a Source (ADLS Gen2)
 
 1.  On the **Microsoft Purview Portal**, navigate to **Data
     Map** \> **Data Sources**, and click on **Register**.
 
-> ![](./media/image33.png)
+      ![](./media/image33.png)
 
 2.  Search for !!**Data Lake!!**, select **Azure Data Lake Storage
     Gen2**, and click **Continue**.
 
-![](./media/image34.png)
+     ![](./media/image34.png)
 
 3.  Select the **Azure subscription**, **Storage account
     name**, **Collection**, and click **Register**.
 
-> ![](./media/image35.png)
->
-> ![A screenshot of a computer Description automatically
-> generated](./media/image36.png)
+      ![](./media/image35.png)
+      ![](./media/image36.png)
 
 ### Task 5: Scan a Source with the Microsoft Purview Managed Identity
 
@@ -207,44 +205,41 @@ configure and run a scan.
     Map** \> **Data Sources**, and within the **Azure Data Lake Storage
     Gen2** tile, click the **New Scan** button.
 
-> ![](./media/image37.png)
+      ![](./media/image37.png)
 
 2.  Click **Test connection** to ensure the Microsoft Purview managed
     identity has the appropriate level of access to read the Azure Data
     Lake Storage Gen2 account. If successful, click **Continue**.
 
-> ![](./media/image38.png)
+      ![](./media/image38.png)
 
 3.  Expand the hierarchy to see which assets will be within the scans
     scope, and click **Continue**.
 
-![](./media/image39.png)
+      ![](./media/image39.png)
 
 4.  Select the system default scan rule set and click **Continue**.
 
-![](./media/image40.png)
+      ![](./media/image40.png)
 
 5.  Select **Once** and click **Continue**.
 
-![A screenshot of a computer screen Description automatically generated
-with medium confidence](./media/image41.png)
+      ![](./media/image41.png)
 
 6.  Click **Save and Run**.
 
-![A screenshot of a computer program Description automatically generated
-with low confidence](./media/image42.png)
+     ![](./media/image42.png)
 
 7.  To monitor the progress of the scan run, click **View Details**.
 
-> ![](./media/image43.png)
+      ![](./media/image43.png)
 
 8.  Click **Refresh** to periodically update the status of the scan.
     Note: It will take approximately 5 to 10 minutes to complete.
 
-> ![](./media/image44.png)
->
-> ![A screenshot of a computer Description automatically
-> generated](./media/image45.png)
+      ![](./media/image44.png)
+   
+     ![](./media/image45.png)
 
 ### Task 6: View Assets
 
@@ -253,13 +248,12 @@ with low confidence](./media/image42.png)
     assets**, type the asterisk character (**\***) into the search bar,
     and hit **Enter**.
 
-> ![](./media/image46.png)
+      ![](./media/image46.png)
 
 2.  You should be able to see a list of assets within the search
     results, which is a result of the scan.
 
-![A screenshot of a computer Description automatically
-generated](./media/image47.png)
+     ![](./media/image47.png)
 
 ## Exercise 2: Register & Scan Azure SQL DB account
 
@@ -282,39 +276,37 @@ members to find data more easily.
 1.  Navigate to the **Home** tab of Azure portal and select **All
     resources**.
 
-> ![](./media/image48.png)
+      ![](./media/image48.png)
 
 2.  Select your **Azure Key Vault** resource (Eg. Pvlab
     {RandomId}-keyvault).
 
-> ![](./media/image49.png)
+     ![](./media/image49.png)
 
 3.  In the **Key vault** home page, select **Access policies** and
     click **+ Create**.
 
-> ![](./media/image50.png)
+      ![](./media/image50.png)
 
 4.  Under **Secret permissions**, click **Select all**. Then,
     click **Next**.
 
-> ![](./media/image51.png)
+     ![](./media/image51.png)
 
 5.  Search for your **account name**, select your account name from the
     search results, then click **Next**.
 
-> ![](./media/image52.png)
+      ![](./media/image52.png)
 
 6.  Skip the **Application (optional)** page by clicking **Next** again.
 
-> ![](./media/image53.png)
+      ![](./media/image53.png)
 
 7.  Review your selections then click **Create**.
 
-> ![](./media/image54.png)
+      ![](./media/image54.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image55.png)
-
+      ![](./media/image55.png)
 ### Task 2: Key Vault Access Policy \#2 (Grant Microsoft Purview Access)
 
 In this next step, we are creating a second access policy which will
@@ -324,28 +316,27 @@ the Key Vault.
 1.  In the **Key vault** home page, select **Access policies** and
     click **+ Create**.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image56.png)
+      ![](./media/image56.png)
 
 2.  Under **Secret permissions**, select **Get** and **List**. Then,
     click **Next**.
 
-> ![](./media/image57.png)
+      ![](./media/image57.png)
 
 3.  Search for the name of your **Microsoft Purview account**
     (e.g. pvlab-{randomID}-pv), select the item, then click **Next**
 
-> ![](./media/image58.png)
+      ![](./media/image58.png)
 
 4.  Skip the **Application (optional)** page by clicking **Next** again.
 
-> ![](./media/image59.png)
+      ![](./media/image59.png)
 
 5.  Review your selections then click **Create**.
 
-> ![](./media/image60.png)
+     ![](./media/image60.png)
 
-![](./media/image61.png)
+      ![](./media/image61.png)
 
 ### Task 3: Generate a Secret
 
@@ -354,19 +345,18 @@ generate a secret.
 
 1.  Navigate to **Secrets** and click **Generate/Import**.
 
-> ![](./media/image62.png)
+      ![](./media/image62.png)
 
 2.  **Copy** and **paste** the values below into the matching fields and
     then click **Create**.
 
-> **Name - !!sql-secret!!**
->
-> **Value - !!sqlPassword!!!**
->
-> ![](./media/image63.png)
+    **Name - !!sql-secret!!**
+   
+    **Value - !!sqlPassword!!!**
+ 
+    ![](./media/image63.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image64.png)
+    ![](./media/image64.png)
 
 ### Task 4: Add Credentials to Microsoft Purview
 
@@ -376,51 +366,49 @@ establish a connection to Azure Key Vault.
 1.  Navigate back to the **Home** tab of Azure portal and select **All
     resources**.
 
-> ![A screenshot of a computer Description automatically generated with
-> medium confidence](./media/image1.png)
+      ![](./media/image1.png)
 
 2.  Open the **Microsoft Purview account** **(pvlab-RandomId-pv)**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image65.png)
+      ![](./media/image65.png)
 
 3.  Open the **Microsoft Purview Governance Portal**.
 
-> ![](./media/image66.png)
+      ![](./media/image66.png)
 
 4.  Navigate to **Data Map**, dropdown the **Source management** and
-    click on **Credentials.** ![](./media/image67.png)
+    click on **Credentials.**
+    ![](./media/image67.png)
 
 5.  In the Credentials pane, click **Manage Key Vault connections**.
 
-> ![](./media/image68.png)
+     ![](./media/image68.png)
 
 6.  In the **Manage Key Vault connections** tab, Click **New**.
 
-> ![](./media/image69.png)
+     ![](./media/image69.png)
 
 7.  **Copy** and **paste** the value below to set the name of your **Key
     Vault connection**, and then use the drop-down menu items to select
     the appropriate **domain**, **Subscription** and **Key Vault name**,
     then click **Create**.
 
-> **Name – !!KeyVault01!!**
+      **Name – !!KeyVault01!!**
 
-![](./media/image70.png)
+      ![](./media/image70.png)
 
 8.  Since we have already granted the Microsoft Purview managed identity
     access to our Azure Key Vault, click **Confirm**.
 
-![A screenshot of a computer error Description automatically
-generated](./media/image71.png)
+     ![](./media/image71.png)
 
 9.  In the **Manage Key Vault connections** tab, click **Close**.
 
-> ![](./media/image72.png)
+      ![](./media/image72.png)
 
 10. Under **Credentials** click +**New**.
 
-![](./media/image73.png)
+     ![](./media/image73.png)
 
 11. Using the drop-down menu items, set the **Authentication
     method** to SQL authentication and the **Key Vault connection** to
@@ -428,34 +416,33 @@ generated](./media/image71.png)
     set, **Copy** and **paste** the values below into the matching
     fields, and then click **Create**.
 
-- **Name - !!credential-SQL!!**
+      - **Name - !!credential-SQL!!**
+      
+      - **User name - !!sqladmin!!**
+      
+      - **Secret name - !!sql-secret!!**
 
-- **User name - !!sqladmin!!**
-
-- **Secret name - !!sql-secret!!**
-
-> ![](./media/image74.png)
->
-> ![A screenshot of a computer Description automatically
-> generated](./media/image75.png)
+     ![](./media/image74.png)
+ 
+      ![](./media/image75.png)
 
 ### Task 5: Register a Source (Azure SQL DB)
 
 1.  On the **Microsoft Purview Portal**, navigate to **Data
     map** \> **Data Sources**, and click **Register**.
 
-![](./media/image76.png)
+     ![](./media/image76.png)
 
 2.  Search for !!SQL Database!!, select **Azure SQL Database**, and
     click **Continue**.
 
-> ![](./media/image77.png)
+      ![](./media/image77.png)
 
 3.  Select the **Azure subscription**, **Server name
     (pvlab-RandomId-sqlsvr)**, and **Collection
     (pvlab-RandomId-pv\>Contoso)**. Click **Register**.
 
-> ![](./media/image78.png)
+      ![](./media/image78.png)
 
 ### Task 6: Scan a Source with Azure Key Vault Credentials
 
@@ -463,51 +450,44 @@ generated](./media/image71.png)
     map** \> **Sources**, and within the Azure SQL Database tile, click
     the **New Scan** button.
 
-![](./media/image79.png)
+      ![](./media/image79.png)
 
 2.  Select your **Database** (e.g. pvlab-{randomID}-sqldb), set
     the **Credential** to **credential-SQL**, turn **Lineage
     extraction** to **Off**, and click **Test connection**. Once the
     connection test is successful, click **Continue**.
 
-> ***Note***
->
-> *If the "Test connection" appears to be hanging, click Cancel and
-> re-try.*
->
-> ![](./media/image80.png)
->
-> ![](./media/image81.png)
+   **Note**:If the "Test connection" appears to be hanging, click Cancel and re-try.
+       ![](./media/image80.png)
+       ![](./media/image81.png)
 
 3.  Click **Continue**.
 
-> ![](./media/image82.png)
+     ![](./media/image82.png)
 
 4.  Click **Continue**.
 
-> ![](./media/image83.png)
+     ![](./media/image83.png)
 
 5.  Set the trigger to **Once**, click **Continue**.
 
-![](./media/image84.png)
+     ![](./media/image84.png)
 
 6.  Click **Save and Run**.
 
-> ![](./media/image85.png)
+      ![](./media/image85.png)
 
 7.  To monitor the progress of the scan, click **View Details**.
 
-> ![](./media/image86.png)
+      ![](./media/image86.png)
 
 8.  Click **Refresh** to periodically update the status of the scan.
 
-> ***Note***
->
-> *It will take approximately 5 to 10 minutes to complete.*
->
-> ![](./media/image87.png)
-
-![](./media/image88.png)
+     **Note**:It will take approximately 5 to 10 minutes to complete.
+ 
+      ![](./media/image87.png)
+    
+    ![](./media/image88.png)
 
 ### Task 7: View Assets
 
@@ -516,15 +496,14 @@ generated](./media/image71.png)
     assets**, type the asterisk character (**\***) into the search bar,
     and hit **Enter**.
 
-> ![](./media/image46.png)
+     ![](./media/image46.png)
 
-![](./media/image89.png)
+     ![](./media/image89.png)
 
 2.  You should be able to see a list of assets within the search
     results, which is a result of the scan.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image90.png)
+     ![](./media/image90.png)
 >
 > **Summary**
 >
