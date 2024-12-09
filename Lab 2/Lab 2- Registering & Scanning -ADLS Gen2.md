@@ -34,84 +34,69 @@ configure and run a scan.
 1.  Navigate to the **Home** tab of Azure portal and select **All
     resources**.
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image1.png)
+     ![](./media/image1.png)
 
 2.  Select your **Azure Data Lake Storage Gen2 account**
     (e.g. pvlab{randomId}adls).
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image2.png)
+     ![](./media/image2.png))
 
 3.  Select **Access Control (IAM)** from the left navigation menu.
 
 4.  Click **+ Add** and then click **Add role assignment**.
 
-> ![](./media/image3.png)
+     ![](./media/image3.png)
 
-5.  Filter the list of roles by searching for !!**Storage Blob Data
-    Reader!!**, click the row to select the role, and then
+5.  Filter the list of roles by searching for !!**Storage Blob Data Reader!!**, click the row to select the role, and then
     click **Next**.
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image4.png)
+      ![](./media/image4.png)
 
-6.  Under **Assign access to**, select **Managed identity**, click **+
-    Select members**, select **Microsoft Purview account** from
-    the **Managed Identity** drop-down menu, select the managed identity
-    for your Microsoft Purview account (e.g. pvlab-{randomId}-pv),
-    click **Select**. Finally, click **Review + assign**.
+6.  Under **Assign access to**, select **Managed identity**, click **+Select members**, select **Microsoft Purview account** from the **Managed Identity** drop-down menu, select the managed identity for your Microsoft Purview account (e.g. pvlab-{randomId}-pv),click **Select**. Finally, click **Review + assign**.
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image5.png)
-
+     ![](./media/image5.png)
 7.  Click **Review + assign** once more to perform the role assignment.
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image6.png)
+    ![](./media/image6.png)
 
 8.  Select **Review + assign** again.
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image7.png)
+     ![](./media/image7.png)
 
 9.  To confirm the role has been assigned, navigate to the **Role
     assignments**. You should be able to see that the Microsoft Purview
     managed identity has been granted the **Storage Blob Data
     Reader** role.
 
-![A screenshot of a computer Description automatically generated with
-medium confidence](./media/image8.png)
+      ![](./media/image8.png)
 
 10. Select **Access Control (IAM)** from the left navigation menu.
 
 11. Click **+ Add** and then click **Add role assignment**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image9.png)
+    ![](./media/image9.png)
 
 12. Filter the list of roles by searching for **Storage Account
     Contributor** , click the row to select the role, and then
     click **Next**.
 
-![](./media/image10.png)
+    ![](./media/image10.png)
 
 13. Under **Assign access to**, click **+ Select members**,
     select **Microsoft Purview account** from for your Microsoft Purview
     account (e.g. pvlab-{randomId}-pv), click **Select**. Finally,
     click **Review + assign**.
 
-![](./media/image11.png)
+      ![](./media/image11.png)
 
 14. Click **Review + assign** once more to perform the role assignment.
 
-![](./media/image12.png)
+      ![](./media/image12.png)
 
 15. You will see a notification – added as Storage Account Contributor
     for pvlab-{randomID}-pv
 
-![A screenshot of a computer Description automatically
-generated](./media/image13.png)
+     ![](./media/image13.png)
 
 ### Task 2: Upload Data to Azure Data Lake Storage Gen2 Account
 
@@ -119,37 +104,36 @@ generated](./media/image13.png)
     navigation pane, navigate to **Data storage** section, then click on
     **Containers**. Click on **+Container**
 
-> ![](./media/image14.png)
+      ![](./media/image14.png)
 
 2.  On the New container pane that appear on the right side, enter the
-    container **Name** as !!**raw!!** and click on **Create** button.
+    container **Name** as **!!raw!!** and click on **Create** button.
 
-> ![](./media/image15.png)
+      ![](./media/image15.png)
 
 3.  On **Azure storage | Containers** page, select **raw**
-    container**.**
+    container.
 
-> ![](./media/image16.png)
+      ![](./media/image16.png)
 
 4.  On **raw** container page, click on **Upload** button.
 
-> ![](./media/image17.png)
+      ![](./media/image17.png)
 
 5.  In the **Upload blob** pane, click on **Browse for file**, navigate
     to **C:\Labfiles** location and select **2020 folder**, then click
     on the **Open** button.
 
-![](./media/image18.png)
+     ![](./media/image18.png)
 
-> ![](./media/image19.png)
+      ![](./media/image19.png)
 
 6.  In the **Upload blob** pane, drop down the Advanced, enter **2020**
     as **Upload to folder** and click on **Upload**
 
-> ![](./media/image20.png)
+      ![](./media/image20.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image21.png)
+     ![](./media/image21.png)
 
 7.  On **raw** container page, click on **Upload** button.
 
