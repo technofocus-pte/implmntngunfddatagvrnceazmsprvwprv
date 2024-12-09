@@ -1,3 +1,5 @@
+    # **Lab 1 : Create an Microsoft Purview Account**
+
 **Introduction**
 
 Microsoft Purview is a unified data governance solution that helps you
@@ -31,47 +33,51 @@ for managing your data
 To create and use the Azure Purview platform, you will need to provision
 an Azure Purview account.
 
-1.  Sign in to the Azure portal <https://portal.azure.com/>, navigate to
+1.  Sign in to the Azure portal !!https://portal.azure.com/!!, navigate to
     the **Home** screen, and then click **Create a resource**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image1.png)
+    ![](./media/image1.png)
 
 2.  Search the Marketplace for "**Microsoft Purview**" and
     click **Create**.
 
-![](./media/image2.png)
-
-![](./media/image3.png)
+    ![](./media/image2.png)
+    
+    ![](./media/image3.png)
 
 3.  Provide the inputs given below on the **Basics** tab.
 
-> ***Note**:*
->
-> *The Azure resources deployed using the lab template have a randomId.
-> It is recommended to use the same randomId for the Microsoft Purview
-> account name.*
+    **Note**:
+     The Azure resources deployed using the lab template have a randomId.
+     It is recommended to use the same randomId for the Microsoft Purview
+     account name.*
 
-![](./media/image4.png)
+    ![](./media/image4.png)
 
-[TABLE]
+    |Parameter|	Example Value|
+    |---|---|
+    |Subscription|	Your Azure Subscription|
+    |Resource group	|!!Purviewlab-rg!!|
+    |Microsoft Purview account name|	!!pvlab-{randomId}-pv!!|
+    |Location|	West US|
+    |Managed resource group name|	!!purviewlab-rg!!|
 
-![](./media/image5.png)
+    ![](./media/image5.png)
 
 4.  Select **Review + Create**.
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 5.  On the **Review + Create** tab, once the message in the ribbon
     returns "**Validation passed**", verify your selections and
     click **Create**.
 
-![](./media/image7.png)
+     ![](./media/image7.png)
 
 6.  Wait several minutes while your deployment is in progress. Once
     complete, click **Go to resource**.
 
-![](./media/image8.png)
+     ![](./media/image8.png)
 
 Stay on the same page and continue to the next exercise.
 
@@ -86,38 +92,32 @@ additional users within your Azure Active Directory.
     **(pvlab-{*randomId*}-pv)** and click the **Open Microsoft Purview
     Governance Portal** tile.
 
-> ![](./media/image9.png)
+      ![](./media/image9.png)
 
 2.  Select the checkbox near **This is a public preview. I agree to the
     preview section of the Product Terms C, and Privacy Statements**.
     And select **Get started**.
 
-> ![](./media/image10.png)
->
-> ![A screenshot of a computer Description automatically
-> generated](./media/image11.png)
+      ![](./media/image10.png)
+     ![](./media/image11.png)
 
 3.  In the **Purview** portal, select **Data map**.
 
-![](./media/image12.png)
+      ![](./media/image12.png)
 
 4.  Select **Domains** under **Data Map** . On the Domains page,
     select **Role assignments** near **Overview**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image13.png)
+      ![](./media/image13.png)
 
 5.  Scroll down and on the right-hand side of **Data curators**, click
-    the **add **icon.
+    the **add**icon.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image14.png)
+     ![](./media/image14.png)
 
 6.  Search for the user **!!Christie Cline!!** within your **Microsoft
     Entra ID** and select the **Account**. Then select **OK**.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image15.png)
+     ![](./media/image15.png)
 
 7.  The **Data Curator** role is now assigned to **Christie Cline** as
     well.
