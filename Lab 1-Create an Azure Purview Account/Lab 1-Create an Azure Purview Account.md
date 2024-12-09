@@ -1,4 +1,4 @@
-    # **Lab 1 : Create an Microsoft Purview Account**
+## Lab 1 : Create an Microsoft Purview Account
 
 **Introduction**
 
