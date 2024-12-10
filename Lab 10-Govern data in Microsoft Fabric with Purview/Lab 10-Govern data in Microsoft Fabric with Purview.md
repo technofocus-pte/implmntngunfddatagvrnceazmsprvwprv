@@ -335,6 +335,31 @@ generated](./media/image27.png)
 
 9.  Select **Next**, on the **Responsible Democratization of Data
     Complete** prompt.
+    
+## Task 7 - Clean up Resource
+
+1.  Once all the Labs are completed, we can remove the resource.
+
+2.  Click on the **Portal Menu**, then select **Resource groups**.
+
+> ![Screenshot](./media/image31.png)
+
+3.  Select the **Purviewlab** resource group.
+
+> ![](./media/image32.png)
+
+4.  Click on **Delete resource group**.
+
+> ![](./media/image33.png)
+
+5.  Type the name of the Resource group and then click on
+    the **Delete** button.
+
+> ![Screenshot](./media/image34.png)
+
+6.  You should get notification as shown in below image.
+
+> ![Screenshot](./media/image35.png)
 
 Congratulations! You have successfully learned how to govern data in
 Data catalog in Microsoft Purview.
