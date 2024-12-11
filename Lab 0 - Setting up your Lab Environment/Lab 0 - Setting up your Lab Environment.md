@@ -1,54 +1,6 @@
 # Lab 0: Setting up your Lab Environment
 
-## Task 1: Redeem Azure Pass
-
-1.  Open a new tab on your browser and browse to the **Microsoft Azure
-    Pass** website using the given link !!https://www.microsoftazurepass.com/!!.
-
-2.  Click on **Start**.
-
-     ![](./media/image1.png)
-
-3.  **Sign-in** with your **given Tenant** credentials.
-
-     ![](./media/image2.png)
-
-4.  Verify your tenant’s email id and then click on **Confirm Microsoft
-    Account**.
-
-    ![](./media/image3.png)
-
-5.  Paste the promo code in the **Enter Promo code** box and click
-    **Submit**.
-
-    ![](./media/image4.png)
-
-6.  Enter the details in **Your Profile** page and select **I agree to
-    the subscription agreement, offer details**, and then click **Sign
-    up**.
-
-   ![](./media/image5.png)
-
-    **Note**: Make sure to give correct details. Incorrect details lead to
-    account deactivation.
-
-7.  Wait for the account setup to complete and then click on the
-    **Submit** button.
-
-     ![](./media/image6.png)
-
-8.  The account setup will take about 2-3 minutes to complete. It would
-    automatically redirect you to the Azure Portal and now you are ready
-    to use Azure services.
-
-9.  Click **Subscriptions**.
-
-    ![](./media/image7.png)
-
-10. You can check your subscription under the **Subscriptions** section.
-     ![](./media/image8.png)
-
-## Task 2: Creating the user accounts
+## Task 1: Creating the user accounts
 
 1.  Open your browser, navigate to the address bar, and type or paste
     the following URL: **!!https://portal.azure.com/!!**, then press the
@@ -110,7 +62,7 @@
 
      ![](./media/image19.png)
 
-## Task 3: Register the required resource providers
+## Task 2: Register the required resource providers
 
 Your subscription must have the following resource providers registered:
 **Microsoft.Purview**, **Microsoft.Storage**, **Microsoft.Synapse**,
@@ -167,7 +119,7 @@ below to complete the registration.
 
        ![](./media/image29.png)
 
-## Task 2: Lab Environment Setup
+## Task 3: Lab Environment Setup
 
 1.  Open a new tab on your browser and browse to the given link to open
     the **Custom Deployment page**.     !!https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftayganr%2Fpurviewlab%2Fmain%2Ftemplate%2Fazuredeploy.json!!
@@ -226,7 +178,7 @@ below to complete the registration.
 
 Stay on the page and move on to the next part.
 
-## Task 3: Save your credits
+## Task 4: Save your credits
 
 You can save your credits by stopping the Virtual Machine resource when
 you are not using it.
