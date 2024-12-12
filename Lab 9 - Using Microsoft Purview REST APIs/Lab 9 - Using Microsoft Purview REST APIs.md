@@ -1,4 +1,4 @@
-# Lab 10 – Using Microsoft Purview REST APIs
+# Lab 9 – Using Microsoft Purview REST APIs
 
 ### **Task 1: Download and Install Postman**
 
