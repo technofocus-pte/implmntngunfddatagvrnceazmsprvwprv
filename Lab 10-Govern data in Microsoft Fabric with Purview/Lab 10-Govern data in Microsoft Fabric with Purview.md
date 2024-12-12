@@ -1,365 +1,178 @@
 **Lab 10 – Govern data in Microsoft Fabric with Purview**
 
-**Exercise 1 – Setting up your business domains**
+# Exercise 1: Sign in to Power BI account and sign up for the free [Microsoft Fabric trial](https://learn.microsoft.com/en-us/fabric/get-started/fabric-trial)
+
+## Task 1: Sign in to Power BI account 
+
+1.  Open your browser, navigate to the address bar, and type or paste
+    the following URL: !!https://app.fabric.microsoft.com/!! then press
+    the **Enter** button.
+
+    ![](./media/image1.png)
+
+2.  In the **Microsoft Fabric** window, enter your assigned credentials
+    and click on the **Submit** button.
+
+     ![](./media/image2.png)
+
+3.  Enter the **Administrative password** from the **Resources** tab and
+    click on the **Sign in** button**.**
+
+     ![](./media/image3.png)
+
+4.  In **Stay signed in?** window, click on the **Yes** button.
+
+5.  You’ll be directed to Power BI Home page.
+
+     ![](./media/image4.png)
+
+## Task 2: Start the Microsoft Fabric trial
+
+1.  On **Power BI Home** page, click on the **Account manager** icon on
+    the top right corner of the page. In the Account manager blade,
+    navigate and select **Start trial as shown in the below image.**
+
+     ![](./media/image5.png)
+
+2.  On **Upgrade to a free Microsoft Fabric** trial dialog box, click on
+    **Start trial button.**
+
+     ![](./media/image6.png)
+
+3.  You will see a **Successfully upgraded to a free Microsoft Fabic
+    trial** notification dialog box. In the dialog box, click on
+    **Fabric Home Page** button.
+
+    ![](./media/image7.png)
+ 
+    ![](./media/image8.png)
+
+# Exercise 2 – Setting up your business domains
 
 To create business domains, glossary terms, define CDEs, and establish
 OKRs follow the given steps.
 
-1.  Open the https://app.powerbi.com/.
+1.  Open the !!https://app.powerbi.com/!!
 
-2.  Sign in to the Power BI portal using the admin credentials provided
-    with your lab environment.
+2.  Sign in to the Power BI portal using the credentials provided with
+    your lab environment.
 
 3.  Select **Settings** \> **Microsoft Purview hub (preview)**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image1.png)
+    ![](./media/image15.png)
 
 4.  Select **Data Catalog**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image2.png)
+     ![](./media/image16.png)
 
 5.  You will be redirected to the new Microsoft Purview portal. If
     asked, agree to the terms and conditions and select **Get started**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image3.png)
+     ![](./media/image17.png)
 
-6.  Under **Getting started tutorial** \> **Modeling your data estate**,
-    select the play button near **Set up business domains**.
+6.  Under **Getting started tutorial**  select **Set up governance
+    domains.**
+    ![](./media/image18.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image4.png)
+7.  If prompted to **Set up governance domains**, select **Let’s go!**.
 
-7.  If prompted to **Setup Business Domains**, select **Let’s go!**.
+     ![](./media/image19.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image5.png)
+8.  Select **Governance domains**.
 
-8.  Select **Next**.
+     ![](./media/image20.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image6.png)
+9. Select +**New governance domain**
 
-9.  Select **Roles and permissions**.
+    ![](./media/image21.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image7.png)
+10. Select **Roles**
 
-10. Select **Business Domain Creators**.
+   ![](./media/image22.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image8.png)
+11. Select **Data Steward**.
 
-11. Follow the rest of the click through tutorial and complete the
+    ![](./media/image23.png)
+
+12. Follow the rest of the click through tutorial and complete the
     exercise. Once the permissions are completed, select **Next**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image9.png)
+    ![](./media/image24.png)
 
-12. On the **Create a Business Domain prompt**, select **Next**.
+13. On the **Governance Domain prompt**, select **Next**.
 
-13. Follow the rest of the click through tutorial and complete the
+    ![](./media/image25.png)
+
+14. Follow the rest of the click through tutorial and complete the
     exercise. You can hover on the blue dots to get the tooltips
     activated for more information on each step.
 
-![A screenshot of a computer Description automatically
-generated](./media/image10.png)
+15. Once the Governance domains is created, select **Next**.
 
-14. Once the business domain is created, select **Next**.
+    ![](./media/image26.png)
 
-![A screenshot of a computer Description automatically
-generated](./media/image11.png)
+16. Under the Glossary terms select **+Create term**
 
-15. Next you will be guided through the different properties on the
-    business domain page.
+     ![](./media/image27.png)
 
-16. Follow the click through tutorial and complete the exercise to
-    create glossary terms for your business domain.
+17. Now select **Next**
 
-![A screenshot of a computer Description automatically
-generated](./media/image12.png)
+     ![](./media/image28.png)
 
-17. Once the term is created, follow the steps to create and manage
-    policies on the term page.
+18. In the **Glossary term pane**, under the **Outbreak** select
+    **Manage policies**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image13.png)
+    ![](./media/image29.png)
 
-18. Follow the click through tutorial and complete the exercise to
-    create OKRs for your business domain.
+19. No select **Manager approval required**
 
-![A screenshot of a computer Description automatically
-generated](./media/image14.png)
+     ![](./media/image30.png)
 
-19. Once the OKR is created select **Next**.
+20. Select **Next**
 
-![A screenshot of a computer Description automatically
-generated](./media/image15.png)
+    ![](./media/image31.png)
 
-20. You will be able to create **Critical data elements**. Follow the
-    tooltips to create Critical data elements.
+21. Select **+New OKR**
 
-![A screenshot of a computer Description automatically
-generated](./media/image16.png)
+     ![](./media/image32.png)
 
-21. On **The Business Domain is Setup** step, select **Next**.
+22. Select **Next**
 
-Congratulations! You have successfully learned how to set up a business
-domain in Data catalog in Microsoft Purview.
+     ![](./media/image33.png)
 
-**Exercise 2 – Federating your data governance**
+     ![](./media/image34.png)
 
-**Task 1 – Setting up and registering your data**
+23. Now Added an OKR ,select Next button.
 
-To build out data map, register and scan data, follow the given steps.
+     ![](./media/image35.png)
+     ![](./media/image36.png)
 
-1.  1.  Open the https://app.powerbi.com/.
+24. In the Data Catalog pane, under Critical data elements select
+    **+New**
 
-2.  Sign in to the Power BI portal using the admin credentials provided
-    with your lab environment.
+     ![](./media/image37.png)
 
-3.  Select **Settings \> Microsoft Purview hub (preview)**.
+25. Now ,select **Next**
 
-![A screenshot of a computer Description automatically
-generated](./media/image1.png)
+     ![](./media/image38.png)
 
-4.  Select **Data Catalog**.
+26. Select +Add column
 
-![A screenshot of a computer Description automatically
-generated](./media/image2.png)
+      ![](./media/image39.png)
 
-5.  You will be redirected to the new Microsoft Purview portal. If
-    asked, agree to the terms and conditions and select **Get started**.
+27. Select Next
 
-![A screenshot of a computer Description automatically
-generated](./media/image3.png)
+     ![](./media/image40.png)
 
-6.  Under **Getting started tutorial** \> **Federating your data
-    governance**, select the play button near **Set up and register your
-    data**.
+28. In the Add columns tab , select **AgeGroupVacc**
 
-![A screenshot of a computer Description automatically
-generated](./media/image17.png)
+     ![](./media/image41.png)
 
-7.  On the On the **Collect your data asset inventory with automated
-    scans** prompt, select **Next**.
+28. Click on the **Publish**
 
-![A screenshot of a computer Description automatically
-generated](./media/image18.png)
+     ![](./media/image42.png)
 
-8.  Follow the guided steps to complete the tutorial.
-
-Congratulations! You have successfully learned how to set up and
-register your data in Data maps in Microsoft Purview.
-
-**Task 2 – Publishing data products**
-
-Follow the given steps to attach data assets, build context connections,
-and manage policies.
-
-1.  1.  Open the https://app.powerbi.com/.
-
-2.  Sign in to the Power BI portal using the admin credentials provided
-    with your lab environment.
-
-3.  Select **Settings \> Microsoft Purview hub (preview)**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image1.png)
-
-4.  Select **Data Catalog**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image2.png)
-
-5.  You will be redirected to the new Microsoft Purview portal. If
-    asked, agree to the terms and conditions and select **Get started**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image3.png)
-
-6.  Under **Getting started tutorial** \> **Federating your data
-    governance**, select the play button near **Publish data products**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image19.png)
-
-7.  On the **Publish Data Products** prompt, select **Let’s get
-    started!**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image20.png)
-
-8.  Follow the guided steps to complete the tutorial.
-
-9.  Once the data product is published, select **Next**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image21.png)
-
-Congratulations! You have successfully learned how to publish data
-products in Data catalog in Microsoft Purview.
-
-**Task 3 – Setting up data quality**
-
-Follow the given steps to define connections, create data quality rules,
-profile data, and schedule scans.
-
-1.  1.  Open the https://app.powerbi.com/.
-
-2.  Sign in to the Power BI portal using the admin credentials provided
-    with your lab environment.
-
-3.  Select **Settings \> Microsoft Purview hub (preview)**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image1.png)
-
-4.  Select **Data Catalog**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image2.png)
-
-5.  You will be redirected to the new Microsoft Purview portal. If
-    asked, agree to the terms and conditions and select **Get started**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image3.png)
-
-6.  Under **Getting started tutorial** \> **Federating your data
-    governance**, select the play button near **Set up data quality**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image22.png)
-
-7.  On the **Run Data Quality** prompt, select **Next**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image23.png)
-
-8.  Follow the guided steps to complete the tutorial.
-
-9.  Once the Data Quality has been added to the asset, select **Next**,
-    to complete **Data Quality with Continuous Monitoring**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image24.png)
-
-![A screenshot of a computer Description automatically
-generated](./media/image25.png)
-
-Congratulations! You have successfully learned how to empower users in
-Data catalog in Microsoft Purview.
-
-**Task 4 – Managing data health**
-
-Follow the given steps to manage and customize data health controls, and
-to set action severity.
-
-1.  Open the https://app.powerbi.com/.
-
-2.  Sign in to the Power BI portal using the admin credentials provided
-    with your lab environment.
-
-3.  Select **Settings \> Microsoft Purview hub (preview)**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image1.png)
-
-4.  Select **Data Catalog**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image2.png)
-
-5.  You will be redirected to the new Microsoft Purview portal. If
-    asked, agree to the terms and conditions and select **Get started**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image3.png)
-
-6.  Under **Getting started tutorial** \> **Federating your data
-    governance**, select the play button near **Manage data health**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image26.png)
-
-7.  On the **Data Estate Health** prompt, select **Learn more about data
-    health**.
-
-8.  Follow the guided steps to complete the tutorial.
-
-9.  Select **Next**, on the **Now the controls are built to your company
-    standards** Prompt.
-
-Congratulations! You have successfully learned how to manage data in
-Data catalog in Microsoft Purview.
-
-**Exercise 3 – Empowering Users**
-
-To Manage data access, explore and search for data and request access,
-follow the given steps.
-
-1.  1.  Open the https://app.powerbi.com/.
-
-2.  Sign in to the Power BI portal using the admin credentials provided
-    with your lab environment.
-
-3.  Select **Settings \> Microsoft Purview hub (preview)**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image1.png)
-
-4.  Select **Data Catalog**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image2.png)
-
-5.  You will be redirected to the new Microsoft Purview portal. If
-    asked, agree to the terms and conditions and select **Get started**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image3.png)
-
-6.  Under **Getting started tutorial** \> **Empowering Users**, select
-    the play button near **Democratize data**.
-
-![A screenshot of a computer Description automatically
-generated](./media/image27.png)
-
-7.  On the **Democratize Data to Your Organization** prompt,
-    select **See how to discover data**.
-
-8.  Follow the guided steps to complete the tutorial.
-
-9.  Select **Next**, on the **Responsible Democratization of Data
-    Complete** prompt.
-    
-## Task 7 - Clean up Resource
-
-1.  Once all the Labs are completed, we can remove the resource.
-
-2.  Click on the **Portal Menu**, then select **Resource groups**.
-
-> ![Screenshot](./media/image31.png)
-
-3.  Select the **Purviewlab** resource group.
-
-> ![](./media/image32.png)
-
-4.  Click on **Delete resource group**.
-
-> ![](./media/image33.png)
-
-5.  Type the name of the Resource group and then click on
-    the **Delete** button.
-
-> ![Screenshot](./media/image34.png)
-
-6.  You should get notification as shown in below image.
-
-> ![Screenshot](./media/image35.png)
+     ![](./media/image43.png)
 
 Congratulations! You have successfully learned how to govern data in
 Data catalog in Microsoft Purview.
