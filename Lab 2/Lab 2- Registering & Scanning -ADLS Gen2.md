@@ -352,7 +352,7 @@ generate a secret.
 
     **Name - !!sql-secret!!**
    
-    **Value - !!sqlPassword!!!**
+    **Value - !!sqlPassword!!**
  
     ![](./media/image63.png)
 
